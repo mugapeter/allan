@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap: Dropdown Select with ajax Live search</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" >
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+	</head>
+	<body>
+		<div class="container shadow" style="padding: 5rem; margin-top: 2rem;">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<label for="exampleDropdown">#1 # Dropdown Select with "data-live-search" </label>
+						<select data-live-search="true" class="form-control selectpicker">
+							<option>Mango</option>
+							<option>Orange</option>
+							<option>Lychee</option>
+							<option>Pineapple</option>
+							<option>Apple</option>
+							<option>Banana</option>
+							<option>Grapes</option>
+							<option>Water Melon</option>
+						</select>
+					</div> 
+					<div class="form-group">
+						<label for="exampleDropdown">#2 Dropdown Select with "title" attribute</label>
+						<select data-live-search="true" title="Please select fruit" class="form-control selectpicker">
+							<option>Mango</option>
+							<option>Orange</option>
+							<option>Lychee</option>
+							<option>Pineapple</option>
+							<option>Apple</option>
+							<option>Banana</option>
+							<option>Grapes</option>
+							<option>Water Melon</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleDropdown">#3 Dropdown Select with "data-live-search-placeholder" attribute</label>
+						<select data-live-search="true" title="Please select fruit" data-live-search-placeholder="Search Fruit" class="form-control selectpicker">
+							<option>Mango</option>
+							<option>Orange</option>
+							<option>Lychee</option>
+							<option>Pineapple</option>
+							<option>Apple</option>
+							<option>Banana</option>
+							<option>Grapes</option>
+							<option>WaterMelon</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleDropdown">#4 Dropdown Select with "Multiple" select attribute</label>
+						<select data-live-search="true" title="Please select fruit" class="form-control selectpicker" multiple>
+							<option>Mango</option>
+							<option>Orange</option>
+							<option>Lychee</option>
+							<option>Pineapple</option>
+							<option>Apple</option>
+							<option>Banana</option>
+							<option>Grapes</option>
+							<option>Water Melon</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlSelect2">#5 Dropdown Select using "data-none-results-text" attribute</label>
+						<select data-live-search="true" data-none-results-text="I found no results" title="Please select fruit" class="form-control selectpicker">
+							<option>Mango</option>
+							<option>Orange</option>
+							<option>Lychee</option>
+							<option>Pineapple</option>
+							<option>Apple</option>
+							<option>Banana</option>
+							<option>Grapes</option>
+							<option>Water Melon</option>
+						</select>
+					</div>
+                    <select>
+                    <option>Ketchup</option>
+                    <option>Relish</option>
+                    </select>
+
+                    <select class="selectpicker" multiple>
+                    <optgroup label="Condiments" data-max-options="2">
+                        <option>Mustard</option>
+                        <option>Ketchup</option>
+                        <option>Relish</option>
+                    </optgroup>
+                    <optgroup label="Breads" data-max-options="2">
+                        <option>Plain</option>
+                        <option>Steamed</option>
+                        <option>Toasted</option>
+                        </optgroup>
+                    </select>
+                    <select class="selectpicker" multiple title="Choose one of the following...">
+                            <option>Mustard</option>
+                            <option>Ketchup</option>
+                            <option>Relish</option>
+                    </select>
+                    <br>
+                    <select class="selectpicker" data-style="btn-primary">
+                            ...
+                    </select>
+
+                    <select class="selectpicker" data-style="btn-info">
+                        ...
+                    </select>
+
+                    <select class="selectpicker" data-style="btn-success">
+                        ...
+                    </select>
+
+                    <select class="selectpicker" data-style="btn-warning">
+                        ...
+                    </select>
+
+                    <select class="selectpicker" data-style="btn-danger">
+                        ...
+                    </select>
+                    <br>
+                    <br>
+                       <h4>the optgroup element</h4>
+                        <label for="cars">Choose a car:</label>
+                        <select id="cars">
+                            <optgroup label="Swedish Cars">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </optgroup>
+                        </select>
+                    
+                        <h3>The pre element</h3>
+
+                            <pre>
+                                Text in a pre element
+                                is displayed in a    fixed-width
+                                font, and it preserves
+                                both spaces and
+                                line breaks
+                            </pre>
+ 
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
